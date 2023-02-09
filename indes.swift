@@ -9,3 +9,9 @@
  ]
  So the function should return 26 because the sum of the minimums is 1 + 5 + 20 = 26.
 */
+func sumOfMinimums(_ arr: [[Int]]) {
+  // your code here
+
+}
+
+sumOfMinimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]])
