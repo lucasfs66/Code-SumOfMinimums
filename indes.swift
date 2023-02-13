@@ -9,9 +9,17 @@
  ]
  So the function should return 26 because the sum of the minimums is 1 + 5 + 20 = 26.
 */
+
 func sumOfMinimums(_ arr: [[Int]]) {
   // your code here
-
+    var result: Int = 0
+    
+    for g in arr{
+        let newG = g.min() ?? 0
+        result = newG + result
+        print(newG)
+    }
+    print(result)
 }
 
 sumOfMinimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]])
