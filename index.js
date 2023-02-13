@@ -9,3 +9,11 @@
  ]
  So the function should return 26 because the sum of the minimums is 1 + 5 + 20 = 26.
 */
+
+function sumOfMinimums(arrayOfNumber){
+    let result = 0
+    for(let i = 0; i < arrayOfNumber.length; i++){
+        result += Math.min(arrayOfNumber[i])
+    }
+}
+
