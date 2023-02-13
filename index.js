@@ -13,7 +13,9 @@
 function sumOfMinimums(arrayOfNumber){
     let result = 0
     for(let i = 0; i < arrayOfNumber.length; i++){
-        result += Math.min(arrayOfNumber[i])
+        result += Math.min(...arrayOfNumber[i])
     }
+    console.log(result)
 }
 
+sumOfMinimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]])
